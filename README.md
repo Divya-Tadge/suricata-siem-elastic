@@ -1,31 +1,59 @@
-# Suricata SIEM with Elastic Stack
+# 🚀 Suricata SIEM with Elastic Stack
 
-## Overview
-Built a complete SIEM pipeline to detect and visualize network-based alerts using Suricata and Elastic Stack.
+## 🔍 Overview
+Designed and implemented a **mini SIEM pipeline** to detect, ingest, and visualize network threats in real-time using Suricata and Elastic Stack.
 
-## Tools Used
-- Suricata
+---
+
+## 🧠 Architecture
+Suricata (IDS) → Filebeat → Elasticsearch → Kibana
+
+---
+
+## ⚙️ Features
+- Real-time **network threat detection**
+- Log ingestion using **Filebeat pipelines**
+- Structured indexing in **Elasticsearch**
+- Interactive dashboards in **Kibana**
+- Detection of suspicious traffic patterns
+
+---
+
+## 🔍 Sample Detection
+Example alert captured:
+
+> **GPL ATTACK_RESPONSE – Potentially Bad Traffic**
+
+---
+
+## 📊 Dashboards
+
+### Kibana Dashboard
+![Kibana Dashboard](./screenshots/kibana-dashboard.png)
+
+### Suricata Alerts
+![Suricata Alert](./screenshots/suricata-alert.png)
+
+---
+
+## 🛠️ Tech Stack
+- Suricata (IDS/IPS)
 - Filebeat
 - Elasticsearch
 - Kibana
+- Ubuntu (UTM)
 
-## Architecture
-Suricata → Filebeat → Elasticsearch → Kibana
+---
 
-## What I Built
-- Installed and configured Suricata IDS
-- Generated real-time intrusion alerts
-- Shipped Suricata logs using Filebeat
-- Stored logs in Elasticsearch
-- Visualized alerts in Kibana Discover
-- Filtered alerts using event.kind: "alert"
+## 📈 Outcome
+- Built a **SOC-style monitoring pipeline**
+- Achieved **real-time visibility into network events**
+- Successfully validated detection using simulated traffic
 
-## Screenshots
-Screenshots are included in this repository.
+---
 
-## Future Enhancement
-- I will add Machine Learning for anomaly detection
+## 🔭 Future Enhancements
+- ML-based anomaly detection
+- Threat intelligence integration
+- Automated alerting
 
-## Author
-Divya Tadge# suricata-siem-elastic
-SIEM pipeline using Suricata, Filebeat, Elasticsearch, and Kibana
