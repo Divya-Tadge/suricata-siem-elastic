@@ -26,16 +26,6 @@ Example alert captured:
 
 ---
 
-## 📊 Dashboards
-
-### Kibana Dashboard
-![Kibana Dashboard](./screenshots/kibana-dashboard.png)
-
-### Suricata Alerts
-![Suricata Alert](./screenshots/suricata-alert.png)
-
----
-
 ## 🛠️ Tech Stack
 - Suricata (IDS/IPS)
 - Filebeat
